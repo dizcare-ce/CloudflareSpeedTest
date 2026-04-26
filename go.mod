@@ -18,3 +18,6 @@ require (
 
 // Personal fork of XIU2/CloudflareSpeedTest
 // Upstream: https://github.com/XIU2/CloudflareSpeedTest
+// Fork notes:
+//   - Studying how the TCP ping and HTTP latency measurement works
+//   - May experiment with adjusting default concurrency and timeout values
