@@ -21,3 +21,5 @@ require (
 // Fork notes:
 //   - Studying how the TCP ping and HTTP latency measurement works
 //   - May experiment with adjusting default concurrency and timeout values
+//   - TODO: look into whether increasing defaultRoutines (200 -> 500) causes
+//     meaningful accuracy loss or just speeds up the initial IP scan
