@@ -26,3 +26,5 @@ require (
 //   - Tested defaultRoutines=500 briefly: scan finishes ~2x faster with no
 //     obvious accuracy regression on my home connection (100Mbps, low latency)
 //     keeping it at 200 for now until I can do a more controlled comparison
+//   - 2024-02: decided to bump defaultRoutines to 300 as a middle ground;
+//     seems stable on my connection and shaves ~30s off a full scan
