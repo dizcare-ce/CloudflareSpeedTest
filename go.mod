@@ -23,3 +23,6 @@ require (
 //   - May experiment with adjusting default concurrency and timeout values
 //   - TODO: look into whether increasing defaultRoutines (200 -> 500) causes
 //     meaningful accuracy loss or just speeds up the initial IP scan
+//   - Tested defaultRoutines=500 briefly: scan finishes ~2x faster with no
+//     obvious accuracy regression on my home connection (100Mbps, low latency)
+//     keeping it at 200 for now until I can do a more controlled comparison
